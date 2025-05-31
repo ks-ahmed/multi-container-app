@@ -3,7 +3,7 @@ services:
   web:
     build: .
     ports:
-      - "5000:5000"
+      - "5002:5002"
     depends_on:
       - redis
   redis:
