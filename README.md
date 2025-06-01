@@ -112,9 +112,24 @@ Explore the application in action, showcasing real-time visit counting powered b
 https://github.com/user-attachments/assets/ea504bc9-03de-4d8f-8eab-fd2bfbfee9b8
 
 
+---
 
-### Clone the Repository
+## Conclusion
 
-```bash
-git clone https://github.com/your-username/multi-container-flask-redis.git
-cd multi-container-flask-redis
+This project demonstrates a scalable, containerized web application integrating Flask and Redis, showcasing best practices in microservices architecture, state management, and container orchestration.
+
+Feel free to explore the application, contribute enhancements, or reach out with any questions or collaboration opportunities.
+
+---
+
+## Contact
+
+**Kadar Ahmed**  
+- Email: ka-sharif@outlook.com
+- LinkedIn: [linkedin.com/in/ks-ahmed](https://linkedin.com/in/ks-ahmed)
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
