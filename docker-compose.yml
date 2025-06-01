@@ -6,8 +6,13 @@ services:
       - "5002"
     depends_on:
       - myredis
+    environment:
+      REDIS_HOST: myredis
+      REDIS_PORT: 6379
+    
+
   nginx:
-    image: nginx:latest
+    image: nginx:alpine
     ports:
     - "5002:5002"
     volumes:
