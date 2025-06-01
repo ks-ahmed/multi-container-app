@@ -106,7 +106,6 @@ This application reflects modern engineering principles including:
 ---
 
 ## Live Application Preview:
-Explore the application in action, showcasing real-time visit counting powered by Redis and a responsive Flask interface.
 
 
 https://github.com/user-attachments/assets/ea504bc9-03de-4d8f-8eab-fd2bfbfee9b8
