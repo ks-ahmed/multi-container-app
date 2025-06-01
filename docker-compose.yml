@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   web:
-    build: .
+    image: multi-container-app-web
     ports:
       - "5002:5002"
     depends_on:
