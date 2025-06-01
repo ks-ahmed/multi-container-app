@@ -130,6 +130,4 @@ Feel free to explore the application, contribute enhancements, or reach out with
 
 ---
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
