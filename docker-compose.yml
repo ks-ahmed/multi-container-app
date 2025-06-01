@@ -2,10 +2,20 @@ version: '3.8'
 services:
   web:
     image: multi-container-app-web
-    ports:
-      - "5002:5002"
+    expose:
+      - "5002"
     depends_on:
       - myredis
+  nginx:
+    image: nginx:latest
+    ports:
+    - "5002:5002"
+    volumes:
+    - ./nginx.conf:/etc/nginx/nginx.conf
+    depends_on:
+    - web
+
+
   myredis:
     image: "redis:alpine"
     ports:
