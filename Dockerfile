@@ -6,5 +6,5 @@ RUN pip install flask redis
 FROM python:3.8-slim
 WORKDIR /app
 COPY --from=build /app /app
-EXPOSE 5002
+EXPOSE 80:5002
 CMD ["python", "app.py"]
