@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   web:
-    image: multi-container-app-web
+    image: multi-container-app-web:latest
     expose:
       - "5002"
     depends_on:
